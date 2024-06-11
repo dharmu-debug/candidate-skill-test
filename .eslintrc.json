@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier" // Add this line
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier" // Also add this line if you want to use Prettier as an ESLint plugin
+  ],
+  "rules": {
+    // Add specific rules or overrides if needed
+  }
+}
